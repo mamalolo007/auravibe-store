@@ -1,0 +1,21 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .aura-circle { fill: #D1C4FF; opacity: 0.6; }
+      .text-aura { fill: #121E42; font-family: 'Inter', sans-serif; font-weight: 700; font-size: 80px; }
+      .text-vibe { fill: #6D5BFF; font-family: 'Inter', sans-serif; font-weight: 700; font-size: 80px; }
+      .logo-mark { fill: #121E42; }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&amp;display=swap" rel="stylesheet" />
+  </defs>
+  
+  <!-- Logo Mark -->
+  <g transform="translate(150, 150)">
+    <circle class="aura-circle" cx="50" cy="20" r="100" />
+    <path class="logo-mark" d="M10 120 L50 20 L90 120 H70 L50 70 L30 120 Z" />
+  </g>
+
+  <!-- Text -->
+  <text x="300" y="200" class="text-aura">Aura</text>
+  <text x="480" y="200" class="text-vibe">Vibe</text>
+</svg>
