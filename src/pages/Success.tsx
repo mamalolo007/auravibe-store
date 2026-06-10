@@ -1,5 +1,5 @@
 import { useLocation, Link } from 'react-router-dom';
-import { CheckCircle2, ArrowRight, ShoppingBag, Download } from 'lucide-react';
+import { CheckCircle2, ArrowRight, Download } from 'lucide-react';
 
 const Success = () => {
   const location = useLocation();
